@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <defs>
+    <linearGradient id="write-mantle" x1="50" y1="10" x2="50" y2="63" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1A3D48"/>
+      <stop offset=".55" stop-color="#0F1A22"/>
+      <stop offset="1" stop-color="#0D1117"/>
+    </linearGradient>
+    <radialGradient id="write-glow" cx="50" cy="42" r="38" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00C2C7" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#00C2C7" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <circle cx="50" cy="42" r="38" fill="url(#write-glow)"/>
+
+  <!-- tentacles -->
+  <g stroke="#00C2C7" stroke-width="4" stroke-linecap="round">
+    <path d="M31 55 C23.5 63 19 73.5 22 82"/>
+    <path d="M40 60 C35 68.5 33 78.5 37 85"/>
+    <path d="M50 61.5 C48 71 52 80 50 87"/>
+  </g>
+  <g fill="#C800FF" opacity=".6">
+    <circle cx="22.6" cy="68.3" r="1.3"/>
+    <circle cx="35.1" cy="73.3" r="1.3"/>
+  </g>
+
+  <!-- the page, with fresh lines -->
+  <rect x="12" y="72" width="50" height="20" rx="3" fill="#0D1117" stroke="#FF00C8" stroke-width="3"/>
+  <g stroke="#1AFFD5" stroke-width="1.8" stroke-linecap="round" opacity=".75">
+    <path d="M18 78 C23 76 28 80 33 78 C38 76 42 79 47 78"/>
+    <path d="M18 85 C22 83 26 87 31 85 C35 83 38 86 41 85"/>
+  </g>
+
+  <!-- mantle -->
+  <path d="M26 44 C26 23.5 36 12 50 12 C64 12 74 23.5 74 44 C74 55.5 63.5 62 50 62 C36.5 62 26 55.5 26 44 Z" fill="url(#write-mantle)" stroke="#00C2C7" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M32 41 C31.5 26 38.5 17 45 16" stroke="#1AFFD5" stroke-width="2.2" stroke-linecap="round" opacity=".5"/>
+  <circle cx="61" cy="23" r="1.2" fill="#1AFFD5" opacity=".24"/>
+
+  <!-- eyes, dreamy, looking up for the next line -->
+  <circle cx="42" cy="38" r="5.4" fill="#F0F0F0" stroke="#00C2C7" stroke-width="1.1"/>
+  <circle cx="58" cy="38" r="5.4" fill="#F0F0F0" stroke="#00C2C7" stroke-width="1.1"/>
+  <circle cx="43.4" cy="36" r="2.4" fill="#07090F"/>
+  <circle cx="59.4" cy="36" r="2.4" fill="#07090F"/>
+  <circle cx="41.2" cy="34.6" r="1" fill="#FFFFFF" opacity=".85"/>
+  <circle cx="57.2" cy="34.6" r="1" fill="#FFFFFF" opacity=".85"/>
+  <path d="M46.5 49 Q50 51.5 53.5 49" stroke="#F0F0F0" stroke-width="1.8" stroke-linecap="round"/>
+
+  <!-- quill, held out front -->
+  <path d="M60 84 C64 68 74 54 90 44 C88 60 78 74 60 84 Z" fill="#0D1117" stroke="#FF00C8" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M60 84 L84 52" stroke="#FF00C8" stroke-width="1.8" stroke-linecap="round" opacity=".8"/>
+  <path d="M60 84 L57 89" stroke="#1AFFD5" stroke-width="2.4" stroke-linecap="round"/>
+  <path d="M70 52 C80 56 80 68 70 74" stroke="#00C2C7" stroke-width="4" stroke-linecap="round"/>
+  <g fill="#C800FF" opacity=".6">
+    <circle cx="77.6" cy="60" r="1.3"/>
+  </g>
+
+  <!-- ink drop + idea sparkle -->
+  <path d="M16 28 C16 28 11.5 34.5 11.5 37.5 C11.5 40.2 13.5 42 16 42 C18.5 42 20.5 40.2 20.5 37.5 C20.5 34.5 16 28 16 28 Z" fill="#C800FF" opacity=".75"/>
+  <path d="M82 18 l1.4 -4 l1.4 4 l4 1.4 l-4 1.4 l-1.4 4 l-1.4 -4 l-4 -1.4 Z" fill="#1AFFD5" opacity=".75"/>
+</svg>
