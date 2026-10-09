@@ -1,0 +1,158 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300" width="900" height="300" role="img" aria-label="Sreekar Sarma - hello from the deep end">
+  <defs>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0e5a7e"/>
+      <stop offset="0.55" stop-color="#083a5a"/>
+      <stop offset="1" stop-color="#03182b"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.8" cy="0.45" r="0.35">
+      <stop offset="0" stop-color="#4fc3f7" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#4fc3f7" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="skin" cx="0.4" cy="0.35" r="0.75">
+      <stop offset="0" stop-color="#ffb3c1"/>
+      <stop offset="0.6" stop-color="#ff7a93"/>
+      <stop offset="1" stop-color="#e0567a"/>
+    </radialGradient>
+    <clipPath id="frame"><rect width="900" height="300" rx="18"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="900" height="300" fill="url(#sea)"/>
+    <rect width="900" height="300" fill="url(#glow)"/>
+
+    <!-- light rays -->
+    <g fill="#ffffff">
+      <polygon points="120,0 190,0 330,300 220,300" opacity="0.05">
+        <animate attributeName="opacity" values="0.03;0.08;0.03" dur="7s" repeatCount="indefinite"/>
+      </polygon>
+      <polygon points="380,0 430,0 560,300 470,300" opacity="0.04">
+        <animate attributeName="opacity" values="0.06;0.02;0.06" dur="9s" repeatCount="indefinite"/>
+      </polygon>
+      <polygon points="610,0 680,0 820,300 700,300" opacity="0.05">
+        <animate attributeName="opacity" values="0.02;0.07;0.02" dur="8s" repeatCount="indefinite"/>
+      </polygon>
+    </g>
+
+    <!-- seaweed -->
+    <g fill="none" stroke-linecap="round">
+      <path d="M30,300 C20,270 45,250 32,220 C22,195 42,180 34,160" stroke="#1f9e7a" stroke-width="7">
+        <animateTransform attributeName="transform" type="rotate" values="-3 30 300;3 30 300;-3 30 300" dur="5s" repeatCount="indefinite"/>
+      </path>
+      <path d="M52,300 C62,275 40,255 55,232 C66,212 48,200 56,185" stroke="#2bc497" stroke-width="5">
+        <animateTransform attributeName="transform" type="rotate" values="3 52 300;-3 52 300;3 52 300" dur="6s" repeatCount="indefinite"/>
+      </path>
+      <path d="M865,300 C875,272 852,252 866,226 C878,204 860,190 868,172" stroke="#1f9e7a" stroke-width="7">
+        <animateTransform attributeName="transform" type="rotate" values="2 865 300;-3 865 300;2 865 300" dur="5.5s" repeatCount="indefinite"/>
+      </path>
+      <path d="M842,300 C834,280 852,262 840,242" stroke="#2bc497" stroke-width="5">
+        <animateTransform attributeName="transform" type="rotate" values="-3 842 300;3 842 300;-3 842 300" dur="4.5s" repeatCount="indefinite"/>
+      </path>
+    </g>
+
+    <!-- sand -->
+    <path d="M0,282 C120,268 220,292 360,280 C500,268 620,292 760,278 C830,272 870,282 900,278 L900,300 L0,300 Z" fill="#d9b77a" opacity="0.45"/>
+
+    <!-- title -->
+    <g font-family="'Segoe UI', 'Trebuchet MS', Verdana, sans-serif">
+      <text x="70" y="118" font-size="20" fill="#8fd3ff" letter-spacing="3">HELLO FROM THE DEEP END</text>
+      <text x="68" y="175" font-size="58" font-weight="700" fill="#e9f8ff">Sreekar Sarma</text>
+      <text x="70" y="212" font-size="18" fill="#b7e4f9" font-style="italic">a curious octopus with way too many tabs open</text>
+    </g>
+
+    <!-- octopus -->
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 -9;0 0" dur="4s" repeatCount="indefinite"/>
+
+      <!-- tentacles -->
+      <g fill="none" stroke="url(#skin)" stroke-width="13" stroke-linecap="round">
+        <!-- waving arm -->
+        <path d="M688,150 C650,140 628,108 640,82 C648,64 668,70 662,86">
+          <animateTransform attributeName="transform" type="rotate" values="-8 690 150;10 690 150;-8 690 150" dur="1.6s" repeatCount="indefinite"/>
+        </path>
+        <path d="M690,168 C662,180 646,205 660,224 C670,236 686,226 678,214">
+          <animateTransform attributeName="transform" type="rotate" values="-4 690 168;4 690 168;-4 690 168" dur="3s" repeatCount="indefinite"/>
+        </path>
+        <path d="M702,174 C690,200 686,228 700,242 C710,250 720,238 710,232">
+          <animateTransform attributeName="transform" type="rotate" values="3 702 174;-4 702 174;3 702 174" dur="3.4s" repeatCount="indefinite"/>
+        </path>
+        <path d="M714,178 C712,206 716,232 730,246">
+          <animateTransform attributeName="transform" type="rotate" values="-3 714 178;3 714 178;-3 714 178" dur="2.8s" repeatCount="indefinite"/>
+        </path>
+        <path d="M728,178 C732,206 728,232 714,248">
+          <animateTransform attributeName="transform" type="rotate" values="3 728 178;-3 728 178;3 728 178" dur="3.1s" repeatCount="indefinite"/>
+        </path>
+        <path d="M740,174 C754,200 758,228 744,242 C734,250 724,238 734,232">
+          <animateTransform attributeName="transform" type="rotate" values="-3 740 174;4 740 174;-3 740 174" dur="3.6s" repeatCount="indefinite"/>
+        </path>
+        <path d="M752,168 C780,180 796,205 782,224 C772,236 756,226 764,214">
+          <animateTransform attributeName="transform" type="rotate" values="4 752 168;-4 752 168;4 752 168" dur="2.9s" repeatCount="indefinite"/>
+        </path>
+        <path d="M756,150 C790,150 812,170 806,192 C802,206 786,204 790,192">
+          <animateTransform attributeName="transform" type="rotate" values="-5 756 150;5 756 150;-5 756 150" dur="3.3s" repeatCount="indefinite"/>
+        </path>
+      </g>
+
+      <!-- head -->
+      <path d="M672,150 C668,92 700,66 721,66 C742,66 774,92 770,150 C768,172 746,182 721,182 C696,182 674,172 672,150 Z" fill="url(#skin)"/>
+      <g fill="#ffd1dc" opacity="0.7">
+        <circle cx="703" cy="88" r="4"/>
+        <circle cx="742" cy="94" r="5"/>
+        <circle cx="726" cy="80" r="3"/>
+      </g>
+
+      <!-- eyes -->
+      <g>
+        <ellipse cx="704" cy="126" rx="11" ry="12" fill="#ffffff">
+          <animate attributeName="ry" values="12;12;1;12" keyTimes="0;0.9;0.95;1" dur="4.5s" repeatCount="indefinite"/>
+        </ellipse>
+        <ellipse cx="738" cy="126" rx="11" ry="12" fill="#ffffff">
+          <animate attributeName="ry" values="12;12;1;12" keyTimes="0;0.9;0.95;1" dur="4.5s" repeatCount="indefinite"/>
+        </ellipse>
+        <ellipse cx="706" cy="128" rx="6" ry="6.5" fill="#1b1f3a">
+          <animate attributeName="ry" values="6.5;6.5;0.5;6.5" keyTimes="0;0.9;0.95;1" dur="4.5s" repeatCount="indefinite"/>
+        </ellipse>
+        <ellipse cx="740" cy="128" rx="6" ry="6.5" fill="#1b1f3a">
+          <animate attributeName="ry" values="6.5;6.5;0.5;6.5" keyTimes="0;0.9;0.95;1" dur="4.5s" repeatCount="indefinite"/>
+        </ellipse>
+        <circle cx="708.5" cy="125" r="2" fill="#ffffff"/>
+        <circle cx="742.5" cy="125" r="2" fill="#ffffff"/>
+      </g>
+
+      <!-- cheeks + smile -->
+      <ellipse cx="692" cy="148" rx="7" ry="4" fill="#ff5c86" opacity="0.6"/>
+      <ellipse cx="750" cy="148" rx="7" ry="4" fill="#ff5c86" opacity="0.6"/>
+      <path d="M711,148 Q721,158 731,148" fill="none" stroke="#1b1f3a" stroke-width="3" stroke-linecap="round"/>
+    </g>
+
+    <!-- bubbles -->
+    <g fill="#bfeaff" fill-opacity="0.15" stroke="#d9f4ff" stroke-opacity="0.7" stroke-width="1.5">
+      <circle cx="770" cy="320" r="5">
+        <animate attributeName="cy" values="110;-20" dur="5s" repeatCount="indefinite"/>
+        <animate attributeName="cx" values="770;778;766;772" dur="5s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="782" cy="320" r="3">
+        <animate attributeName="cy" values="110;-20" dur="5s" begin="1.4s" repeatCount="indefinite"/>
+        <animate attributeName="cx" values="782;774;786;780" dur="5s" begin="1.4s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="120" cy="320" r="6">
+        <animate attributeName="cy" values="320;-20" dur="9s" repeatCount="indefinite"/>
+        <animate attributeName="cx" values="120;132;114;124" dur="9s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="300" cy="320" r="4">
+        <animate attributeName="cy" values="320;-20" dur="7s" begin="2s" repeatCount="indefinite"/>
+        <animate attributeName="cx" values="300;292;306;298" dur="7s" begin="2s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="520" cy="320" r="7">
+        <animate attributeName="cy" values="320;-20" dur="10s" begin="4s" repeatCount="indefinite"/>
+        <animate attributeName="cx" values="520;530;512;522" dur="10s" begin="4s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="600" cy="320" r="3">
+        <animate attributeName="cy" values="320;-20" dur="6s" begin="1s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="840" cy="320" r="4">
+        <animate attributeName="cy" values="320;-20" dur="8s" begin="3s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+  </g>
+</svg>

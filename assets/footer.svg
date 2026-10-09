@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 150" width="900" height="150" role="img" aria-label="thanks for diving by">
+  <defs>
+    <linearGradient id="deep" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#062a44"/>
+      <stop offset="1" stop-color="#021220"/>
+    </linearGradient>
+    <clipPath id="frame"><rect width="900" height="150" rx="18"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="900" height="150" fill="url(#deep)"/>
+
+    <!-- a small fish crossing -->
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="-80 0;980 0" dur="14s" repeatCount="indefinite"/>
+      <g transform="translate(0,48)">
+        <path d="M0,0 C10,-10 30,-10 40,0 C30,10 10,10 0,0 Z" fill="#ffb74d"/>
+        <path d="M0,0 L-12,-8 L-12,8 Z" fill="#ffa726"/>
+        <circle cx="31" cy="-2" r="2" fill="#1b1f3a"/>
+      </g>
+    </g>
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="980 0;-80 0" dur="19s" repeatCount="indefinite"/>
+      <g transform="translate(0,28) scale(-0.7,0.7)">
+        <path d="M0,0 C10,-10 30,-10 40,0 C30,10 10,10 0,0 Z" fill="#4fc3f7"/>
+        <path d="M0,0 L-12,-8 L-12,8 Z" fill="#29b6f6"/>
+        <circle cx="31" cy="-2" r="2" fill="#1b1f3a"/>
+      </g>
+    </g>
+
+    <text x="450" y="80" text-anchor="middle" font-family="'Segoe UI', 'Trebuchet MS', Verdana, sans-serif" font-size="18" fill="#b7e4f9" font-style="italic">thanks for diving by. come back up for air anytime.</text>
+
+    <!-- seabed -->
+    <path d="M0,118 C110,104 210,126 340,114 C480,102 600,128 740,112 C820,104 870,116 900,112 L900,150 L0,150 Z" fill="#d9b77a" opacity="0.5"/>
+
+    <!-- seaweed -->
+    <g fill="none" stroke-linecap="round">
+      <path d="M90,140 C80,122 100,108 90,90" stroke="#1f9e7a" stroke-width="6">
+        <animateTransform attributeName="transform" type="rotate" values="-4 90 140;4 90 140;-4 90 140" dur="5s" repeatCount="indefinite"/>
+      </path>
+      <path d="M106,140 C114,124 98,112 108,98" stroke="#2bc497" stroke-width="4">
+        <animateTransform attributeName="transform" type="rotate" values="4 106 140;-4 106 140;4 106 140" dur="4s" repeatCount="indefinite"/>
+      </path>
+      <path d="M800,140 C790,120 812,106 800,86" stroke="#1f9e7a" stroke-width="6">
+        <animateTransform attributeName="transform" type="rotate" values="3 800 140;-4 800 140;3 800 140" dur="5.5s" repeatCount="indefinite"/>
+      </path>
+    </g>
+
+    <!-- starfish -->
+    <path transform="translate(250,124) scale(0.9)" d="M0,-12 L3.5,-4 L12,-3.5 L5.5,2.5 L7.5,11 L0,6.5 L-7.5,11 L-5.5,2.5 L-12,-3.5 L-3.5,-4 Z" fill="#ff8a65"/>
+    <!-- shell -->
+    <g transform="translate(620,126)">
+      <path d="M-11,4 C-11,-8 11,-8 11,4 Z" fill="#ffe0b2"/>
+      <path d="M0,4 L0,-6 M-5,4 L-3,-5 M5,4 L3,-5" stroke="#d7a86e" stroke-width="1.2"/>
+    </g>
+    <!-- treasure chest -->
+    <g transform="translate(700,112)">
+      <rect x="0" y="6" width="34" height="18" rx="2" fill="#8d5a2b"/>
+      <path d="M0,8 C0,-4 34,-4 34,8 Z" fill="#a86b35"/>
+      <rect x="15" y="7" width="4" height="7" fill="#ffd54f"/>
+      <circle cx="17" cy="0" r="2" fill="#ffd54f">
+        <animate attributeName="opacity" values="0.2;1;0.2" dur="2s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <!-- rising bubbles -->
+    <g fill="none" stroke="#d9f4ff" stroke-opacity="0.6" stroke-width="1.3">
+      <circle cx="712" cy="110" r="3">
+        <animate attributeName="cy" values="110;-10" dur="4s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="96" cy="120" r="4">
+        <animate attributeName="cy" values="120;-10" dur="6s" begin="2s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+  </g>
+</svg>
