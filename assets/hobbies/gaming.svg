@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <defs>
+    <linearGradient id="game-mantle" x1="50" y1="10" x2="50" y2="63" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1A3D48"/>
+      <stop offset=".55" stop-color="#0F1A22"/>
+      <stop offset="1" stop-color="#0D1117"/>
+    </linearGradient>
+    <radialGradient id="game-glow" cx="50" cy="42" r="38" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00C2C7" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#00C2C7" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <circle cx="50" cy="42" r="38" fill="url(#game-glow)"/>
+
+  <!-- tentacles under the controller -->
+  <g stroke="#00C2C7" stroke-width="4" stroke-linecap="round">
+    <path d="M40 60 C35 68.5 33 78.5 37 85"/>
+    <path d="M50 61.5 C48 71 52 80 50 87"/>
+    <path d="M60 60 C65 68.5 67 78.5 63 85"/>
+  </g>
+  <g fill="#C800FF" opacity=".6">
+    <circle cx="35.1" cy="81" r="1.3"/>
+    <circle cx="50.6" cy="83" r="1.3"/>
+    <circle cx="64.9" cy="81" r="1.3"/>
+  </g>
+
+  <!-- mantle -->
+  <path d="M26 44 C26 23.5 36 12 50 12 C64 12 74 23.5 74 44 C74 55.5 63.5 62 50 62 C36.5 62 26 55.5 26 44 Z" fill="url(#game-mantle)" stroke="#00C2C7" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M32 41 C31.5 26 38.5 17 45 16" stroke="#1AFFD5" stroke-width="2.2" stroke-linecap="round" opacity=".5"/>
+  <circle cx="61" cy="23" r="1.2" fill="#1AFFD5" opacity=".24"/>
+
+  <!-- eyes, locked in, one more round -->
+  <circle cx="42" cy="38" r="5.4" fill="#F0F0F0" stroke="#00C2C7" stroke-width="1.1"/>
+  <circle cx="58" cy="38" r="5.4" fill="#F0F0F0" stroke="#00C2C7" stroke-width="1.1"/>
+  <circle cx="42.4" cy="40" r="2.4" fill="#07090F"/>
+  <circle cx="58.4" cy="40" r="2.4" fill="#07090F"/>
+  <circle cx="40.4" cy="36.4" r="1" fill="#FFFFFF" opacity=".85"/>
+  <circle cx="56.4" cy="36.4" r="1" fill="#FFFFFF" opacity=".85"/>
+  <path d="M36 31 L46 33 M64 31 L54 33" stroke="#F0F0F0" stroke-width="2" stroke-linecap="round"/>
+  <path d="M47 49 Q50 50.5 53 49" stroke="#F0F0F0" stroke-width="1.8" stroke-linecap="round"/>
+
+  <!-- arms gripping the controller -->
+  <g stroke="#00C2C7" stroke-width="4" stroke-linecap="round">
+    <path d="M30 52 C20 58 17 66 21 72"/>
+    <path d="M70 52 C80 58 83 66 79 72"/>
+  </g>
+
+  <!-- controller -->
+  <path d="M30 64 H70 C78 64 84 70 84 78 C84 86 78 90 73 86 L66 80 H34 L27 86 C22 90 16 86 16 78 C16 70 22 64 30 64 Z" fill="#0D1117" stroke="#FF00C8" stroke-width="3.4" stroke-linejoin="round"/>
+  <path d="M30 70 V78 M26 74 H34" stroke="#1AFFD5" stroke-width="2.6" stroke-linecap="round"/>
+  <circle cx="66" cy="71" r="2.4" fill="#1AFFD5"/>
+  <circle cx="72" cy="76" r="2.4" fill="#FF00C8"/>
+  <circle cx="44" cy="73" r="1.4" fill="#1AFFD5" opacity=".6"/>
+  <circle cx="56" cy="73" r="1.4" fill="#1AFFD5" opacity=".6"/>
+
+  <!-- floating pixel hearts / score -->
+  <g fill="#FF00C8" opacity=".75">
+    <path d="M10 18 h2 v-2 h2 v2 h2 v-2 h2 v2 h2 v2 h-2 v2 h-2 v2 h-2 v-2 h-2 v-2 h-2 z"/>
+  </g>
+  <path d="M84 18 l1.4 -4 l1.4 4 l4 1.4 l-4 1.4 l-1.4 4 l-1.4 -4 l-4 -1.4 Z" fill="#1AFFD5" opacity=".75"/>
+</svg>
