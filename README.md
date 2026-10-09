@@ -12,7 +12,7 @@
 
 ---
 
-## 🐙 ahoy, i'm sreekar. you can also call me octy
+## 🐙 Ahoy, I'm sreekar. you can also call me octy
 
 > *an octopus has three hearts, nine brains and blue blood.*
 > *i've got one of each, so i make up for it with curiosity and way too many open tabs.*
@@ -27,7 +27,7 @@
 
 ## 🌊 when i'm not at the keyboard
 
-*eight arms, eight hobbies. it works out perfectly.*
+*eight arms, eight hobbies.*
 
 <table>
   <tr>
