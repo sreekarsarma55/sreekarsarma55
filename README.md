@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/header.svg" width="100%" alt="Sreekar Sarma — hello from the deep end" />
+  <img src="assets/header.svg" width="100%" alt="Sreekar Sarma — hello from Octy" />
 </p>
 
 <p align="center">
@@ -12,7 +12,7 @@
 
 ---
 
-## 🐙 ahoy, i'm sreekar
+## 🐙 ahoy, i'm sreekar. you can also call me octy
 
 > *an octopus has three hearts, nine brains and blue blood.*
 > *i've got one of each, so i make up for it with curiosity and way too many open tabs.*
@@ -20,8 +20,21 @@
 - 🎓 studying **CSE** (B.Tech, Mohan Babu University) and **Data Science** (BS, IIT Madras), at the same time
 - 🛡️ deep in the trench with **ChainGuard**, my capstone. it fuses several SBOM generators and vulnerability scanners into one CI/CD security gate
 - 📚 i build the behind-the-scenes stuff for **Sahityika**, the literary society of the IIT Madras BS programme: email templates, a reading-session archive and other tidy things
-- 🧠 i keep my study notes on ML and data science out in the open in [`notes`](https://github.com/sreekarsarma55/notes)
-- 💬 happy to talk about python, supply-chain security, machine learning, or a good book
+- 💬 happy to talk about python, machine learning, or a good book
+
+---
+
+## 🌊 when i'm not at the keyboard
+
+<table>
+  <tr>
+    <td align="center" width="20%"><img src="assets/hobbies/swimming.svg" width="88" alt="swimming octopus"/><br/><b>swimming</b><br/><sub>the closest i get to being octy</sub></td>
+    <td align="center" width="20%"><img src="assets/hobbies/photography.svg" width="88" alt="octopus with a camera"/><br/><b>photography</b><br/><sub>eight arms, one steady shot</sub></td>
+    <td align="center" width="20%"><img src="assets/hobbies/cooking.svg" width="88" alt="octopus chef stirring a pot"/><br/><b>cooking</b><br/><sub>stirring several pots at once</sub></td>
+    <td align="center" width="20%"><img src="assets/hobbies/music.svg" width="88" alt="octopus with headphones"/><br/><b>music</b><br/><sub>headphones on, world off</sub></td>
+    <td align="center" width="20%"><img src="assets/hobbies/nature.svg" width="88" alt="octopus holding a flower"/><br/><b>nature</b><br/><sub>happiest somewhere green, or blue</sub></td>
+  </tr>
+</table>
 
 ---
 
@@ -74,7 +87,8 @@
   > if you scrolled this far, you're basically part of the crew now.
   > star a repo, open an issue, or just wave a tentacle 👋
   >
-  > *p.s. the octopus is called Inky. Inky says hi.*
+  > *p.s. the octopus is called octy jr.*
+  > *he says hi.*
 </details>
 
 ---

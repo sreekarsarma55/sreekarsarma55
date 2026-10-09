@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <defs>
+    <linearGradient id="nature-mantle" x1="50" y1="10" x2="50" y2="63" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1A3D48"/>
+      <stop offset=".55" stop-color="#0F1A22"/>
+      <stop offset="1" stop-color="#0D1117"/>
+    </linearGradient>
+    <radialGradient id="nature-glow" cx="50" cy="44" r="38" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00C2C7" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#00C2C7" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <circle cx="50" cy="44" r="38" fill="url(#nature-glow)"/>
+
+  <!-- sprout growing from the head -->
+  <path d="M50 16 C50 11 51 7 53 4" stroke="#1AFFD5" stroke-width="2.6" stroke-linecap="round"/>
+  <path d="M52.5 6 C56 0 64 0 67 3 C63 8 56 9 52.5 6 Z" fill="#1AFFD5" opacity=".85"/>
+  <path d="M51 9 C47 4 40 4 37.5 7 C41 11 47.5 12 51 9 Z" fill="#00C2C7" opacity=".85"/>
+
+  <!-- tentacle skirt -->
+  <g stroke="#00C2C7" stroke-width="4" stroke-linecap="round">
+    <path d="M31 55 C23.5 63 19 73.5 22 82"/>
+    <path d="M40 60 C35 68.5 33 78.5 37 85"/>
+    <path d="M50 61.5 C48 71 52 80 50 87"/>
+    <path d="M60 60 C65 68.5 67 78.5 63 85"/>
+  </g>
+  <g fill="#C800FF" opacity=".6">
+    <circle cx="22.6" cy="68.3" r="1.3"/>
+    <circle cx="35.1" cy="73.3" r="1.3"/>
+    <circle cx="50" cy="75.2" r="1.3"/>
+    <circle cx="64.9" cy="73.3" r="1.3"/>
+  </g>
+
+  <!-- arm holding up a flower -->
+  <path d="M70 52 C80 54 86 48 86 38" stroke="#00C2C7" stroke-width="4" stroke-linecap="round"/>
+  <path d="M86 38 V30" stroke="#1AFFD5" stroke-width="2.4" stroke-linecap="round"/>
+  <g fill="#FF00C8">
+    <circle cx="86" cy="21.5" r="3.4"/>
+    <circle cx="90.5" cy="25" r="3.4"/>
+    <circle cx="88.8" cy="30.2" r="3.4"/>
+    <circle cx="83.2" cy="30.2" r="3.4"/>
+    <circle cx="81.5" cy="25" r="3.4"/>
+  </g>
+  <circle cx="86" cy="26" r="2.8" fill="#1AFFD5"/>
+
+  <!-- mantle -->
+  <path d="M26 44 C26 23.5 36 12 50 12 C64 12 74 23.5 74 44 C74 55.5 63.5 62 50 62 C36.5 62 26 55.5 26 44 Z" fill="url(#nature-mantle)" stroke="#00C2C7" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M32 41 C31.5 26 38.5 17 45 16" stroke="#1AFFD5" stroke-width="2.2" stroke-linecap="round" opacity=".5"/>
+
+  <!-- eyes, happily closed, soaking it in -->
+  <path d="M37 40 Q42 34.5 47 40" stroke="#F0F0F0" stroke-width="2.6" stroke-linecap="round"/>
+  <path d="M53 40 Q58 34.5 63 40" stroke="#F0F0F0" stroke-width="2.6" stroke-linecap="round"/>
+  <ellipse cx="36" cy="47" rx="3.4" ry="2" fill="#FF00C8" opacity=".45"/>
+  <ellipse cx="64" cy="47" rx="3.4" ry="2" fill="#FF00C8" opacity=".45"/>
+  <path d="M46.5 48 Q50 51.5 53.5 48" stroke="#F0F0F0" stroke-width="1.8" stroke-linecap="round"/>
+
+  <!-- falling leaf -->
+  <path d="M14 30 C14 24 20 21 24 22 C24 27 19 31 14 30 Z" fill="#1AFFD5" opacity=".55"/>
+  <path d="M14 30 L22 23" stroke="#0D1117" stroke-width="1" opacity=".6"/>
+</svg>

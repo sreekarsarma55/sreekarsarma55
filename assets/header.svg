@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300" width="900" height="300" role="img" aria-label="Sreekar Sarma - hello from the deep end">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300" width="900" height="300" role="img" aria-label="Sreekar Sarma - hello from Octy">
   <defs>
     <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#0e5a7e"/>
@@ -55,74 +55,97 @@
 
     <!-- title -->
     <g font-family="'Segoe UI', 'Trebuchet MS', Verdana, sans-serif">
-      <text x="70" y="118" font-size="20" fill="#8fd3ff" letter-spacing="3">HELLO FROM THE DEEP END</text>
+      <text x="70" y="118" font-size="20" fill="#8fd3ff" letter-spacing="3">HELLO FROM OCTY</text>
       <text x="68" y="175" font-size="58" font-weight="700" fill="#e9f8ff">Sreekar Sarma</text>
       <text x="70" y="212" font-size="18" fill="#b7e4f9" font-style="italic">a curious octopus with way too many tabs open</text>
     </g>
 
-    <!-- octopus -->
+    <!-- octy jr. -->
     <g>
-      <animateTransform attributeName="transform" type="translate" values="0 0;0 -9;0 0" dur="4s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 -10;0 0" dur="4s" repeatCount="indefinite"/>
 
-      <!-- tentacles -->
-      <g fill="none" stroke="url(#skin)" stroke-width="13" stroke-linecap="round">
-        <!-- waving arm -->
-        <path d="M688,150 C650,140 628,108 640,82 C648,64 668,70 662,86">
-          <animateTransform attributeName="transform" type="rotate" values="-8 690 150;10 690 150;-8 690 150" dur="1.6s" repeatCount="indefinite"/>
-        </path>
-        <path d="M690,168 C662,180 646,205 660,224 C670,236 686,226 678,214">
-          <animateTransform attributeName="transform" type="rotate" values="-4 690 168;4 690 168;-4 690 168" dur="3s" repeatCount="indefinite"/>
-        </path>
-        <path d="M702,174 C690,200 686,228 700,242 C710,250 720,238 710,232">
-          <animateTransform attributeName="transform" type="rotate" values="3 702 174;-4 702 174;3 702 174" dur="3.4s" repeatCount="indefinite"/>
-        </path>
-        <path d="M714,178 C712,206 716,232 730,246">
-          <animateTransform attributeName="transform" type="rotate" values="-3 714 178;3 714 178;-3 714 178" dur="2.8s" repeatCount="indefinite"/>
-        </path>
-        <path d="M728,178 C732,206 728,232 714,248">
-          <animateTransform attributeName="transform" type="rotate" values="3 728 178;-3 728 178;3 728 178" dur="3.1s" repeatCount="indefinite"/>
-        </path>
-        <path d="M740,174 C754,200 758,228 744,242 C734,250 724,238 734,232">
-          <animateTransform attributeName="transform" type="rotate" values="-3 740 174;4 740 174;-3 740 174" dur="3.6s" repeatCount="indefinite"/>
-        </path>
-        <path d="M752,168 C780,180 796,205 782,224 C772,236 756,226 764,214">
-          <animateTransform attributeName="transform" type="rotate" values="4 752 168;-4 752 168;4 752 168" dur="2.9s" repeatCount="indefinite"/>
-        </path>
-        <path d="M756,150 C790,150 812,170 806,192 C802,206 786,204 790,192">
-          <animateTransform attributeName="transform" type="rotate" values="-5 756 150;5 756 150;-5 756 150" dur="3.3s" repeatCount="indefinite"/>
-        </path>
-      </g>
-
-      <!-- head -->
-      <path d="M672,150 C668,92 700,66 721,66 C742,66 774,92 770,150 C768,172 746,182 721,182 C696,182 674,172 672,150 Z" fill="url(#skin)"/>
-      <g fill="#ffd1dc" opacity="0.7">
-        <circle cx="703" cy="88" r="4"/>
-        <circle cx="742" cy="94" r="5"/>
-        <circle cx="726" cy="80" r="3"/>
-      </g>
-
-      <!-- eyes -->
+      <!-- speech bubble -->
       <g>
-        <ellipse cx="704" cy="126" rx="11" ry="12" fill="#ffffff">
-          <animate attributeName="ry" values="12;12;1;12" keyTimes="0;0.9;0.95;1" dur="4.5s" repeatCount="indefinite"/>
-        </ellipse>
-        <ellipse cx="738" cy="126" rx="11" ry="12" fill="#ffffff">
-          <animate attributeName="ry" values="12;12;1;12" keyTimes="0;0.9;0.95;1" dur="4.5s" repeatCount="indefinite"/>
-        </ellipse>
-        <ellipse cx="706" cy="128" rx="6" ry="6.5" fill="#1b1f3a">
-          <animate attributeName="ry" values="6.5;6.5;0.5;6.5" keyTimes="0;0.9;0.95;1" dur="4.5s" repeatCount="indefinite"/>
-        </ellipse>
-        <ellipse cx="740" cy="128" rx="6" ry="6.5" fill="#1b1f3a">
-          <animate attributeName="ry" values="6.5;6.5;0.5;6.5" keyTimes="0;0.9;0.95;1" dur="4.5s" repeatCount="indefinite"/>
-        </ellipse>
-        <circle cx="708.5" cy="125" r="2" fill="#ffffff"/>
-        <circle cx="742.5" cy="125" r="2" fill="#ffffff"/>
+        <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.1;0.6;0.7;1" dur="6s" repeatCount="indefinite"/>
+        <path d="M566,52 h56 a12,12 0 0 1 12,12 v14 a12,12 0 0 1 -12,12 h-30 l-10,10 l0,-10 h-16 a12,12 0 0 1 -12,-12 v-14 a12,12 0 0 1 12,-12 z" fill="#ffffff" opacity="0.95"/>
+        <text x="594" y="78" text-anchor="middle" font-family="'Segoe UI', 'Trebuchet MS', Verdana, sans-serif" font-size="18" font-weight="700" fill="#e0567a">hi!</text>
       </g>
 
-      <!-- cheeks + smile -->
-      <ellipse cx="692" cy="148" rx="7" ry="4" fill="#ff5c86" opacity="0.6"/>
-      <ellipse cx="750" cy="148" rx="7" ry="4" fill="#ff5c86" opacity="0.6"/>
-      <path d="M711,148 Q721,158 731,148" fill="none" stroke="#1b1f3a" stroke-width="3" stroke-linecap="round"/>
+      <!-- tentacles: short, chubby, curly -->
+      <g fill="none" stroke="url(#skin)" stroke-width="16" stroke-linecap="round">
+        <path d="M672,140 C644,134 630,108 640,90 C648,76 664,82 658,94">
+          <animateTransform attributeName="transform" type="rotate" values="-10 674 142;12 674 142;-10 674 142" dur="1.4s" repeatCount="indefinite"/>
+        </path>
+        <path d="M680,160 C660,172 650,192 664,204 C674,212 686,202 677,195">
+          <animateTransform attributeName="transform" type="rotate" values="-4 680 160;4 680 160;-4 680 160" dur="3s" repeatCount="indefinite"/>
+        </path>
+        <path d="M699,170 C690,190 690,210 704,216 C715,220 719,207 709,204">
+          <animateTransform attributeName="transform" type="rotate" values="4 699 170;-4 699 170;4 699 170" dur="3.4s" repeatCount="indefinite"/>
+        </path>
+        <path d="M719,174 C716,194 720,212 734,216 C744,218 746,206 737,204">
+          <animateTransform attributeName="transform" type="rotate" values="-3 719 174;3 719 174;-3 719 174" dur="2.8s" repeatCount="indefinite"/>
+        </path>
+        <path d="M740,174 C746,194 744,210 756,214 C766,216 768,203 758,201">
+          <animateTransform attributeName="transform" type="rotate" values="3 740 174;-4 740 174;3 740 174" dur="3.2s" repeatCount="indefinite"/>
+        </path>
+        <path d="M758,168 C776,182 786,198 778,210 C771,219 759,211 766,203">
+          <animateTransform attributeName="transform" type="rotate" values="-4 758 168;4 758 168;-4 758 168" dur="3.6s" repeatCount="indefinite"/>
+        </path>
+        <path d="M776,152 C798,158 810,174 803,188 C798,197 787,193 791,184">
+          <animateTransform attributeName="transform" type="rotate" values="4 776 152;-5 776 152;4 776 152" dur="2.9s" repeatCount="indefinite"/>
+        </path>
+      </g>
+
+      <!-- head: big, round, squishy -->
+      <path d="M664,138 C664,86 694,60 725,60 C756,60 786,86 786,138 C786,164 760,178 725,178 C690,178 664,164 664,138 Z" fill="url(#skin)"/>
+      <ellipse cx="700" cy="84" rx="14" ry="8" fill="#ffffff" opacity="0.35" transform="rotate(-30 700 84)"/>
+      <g fill="#ffd1dc" opacity="0.75">
+        <circle cx="752" cy="82" r="5"/>
+        <circle cx="766" cy="98" r="3"/>
+        <circle cx="738" cy="72" r="2.5"/>
+      </g>
+
+      <!-- little bow -->
+      <g transform="translate(754,66) rotate(18)">
+        <path d="M0,0 L-14,-9 L-14,9 Z" fill="#7c4dff"/>
+        <path d="M0,0 L14,-9 L14,9 Z" fill="#7c4dff"/>
+        <circle r="4" fill="#b388ff"/>
+      </g>
+
+      <!-- big sparkly eyes -->
+      <g fill="#2a1b3d">
+        <ellipse cx="705" cy="126" rx="10" ry="12">
+          <animate attributeName="ry" values="12;12;1.2;12" keyTimes="0;0.9;0.95;1" dur="4.5s" repeatCount="indefinite"/>
+        </ellipse>
+        <ellipse cx="745" cy="126" rx="10" ry="12">
+          <animate attributeName="ry" values="12;12;1.2;12" keyTimes="0;0.9;0.95;1" dur="4.5s" repeatCount="indefinite"/>
+        </ellipse>
+      </g>
+      <g fill="#ffffff">
+        <animate attributeName="opacity" values="1;1;0;1" keyTimes="0;0.9;0.95;1" dur="4.5s" repeatCount="indefinite"/>
+        <circle cx="709" cy="120" r="4"/>
+        <circle cx="749" cy="120" r="4"/>
+        <circle cx="702" cy="131" r="1.8"/>
+        <circle cx="742" cy="131" r="1.8"/>
+      </g>
+
+      <!-- blush + tiny smile -->
+      <ellipse cx="687" cy="146" rx="9" ry="5" fill="#ff4f7b" opacity="0.55"/>
+      <ellipse cx="763" cy="146" rx="9" ry="5" fill="#ff4f7b" opacity="0.55"/>
+      <path d="M716,145 Q720.5,151 725,145 Q729.5,151 734,145" fill="none" stroke="#2a1b3d" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+
+    <!-- sparkles -->
+    <g fill="#fff3b0">
+      <path d="M612,150 l3,-9 l3,9 l9,3 l-9,3 l-3,9 l-3,-9 l-9,-3 z" opacity="0.8">
+        <animate attributeName="opacity" values="0;0.9;0" dur="2.6s" repeatCount="indefinite"/>
+      </path>
+      <path d="M826,92 l2,-6 l2,6 l6,2 l-6,2 l-2,6 l-2,-6 l-6,-2 z">
+        <animate attributeName="opacity" values="0.9;0;0.9" dur="3.1s" repeatCount="indefinite"/>
+      </path>
+      <path d="M800,240 l2,-6 l2,6 l6,2 l-6,2 l-2,6 l-2,-6 l-6,-2 z">
+        <animate attributeName="opacity" values="0;0.8;0" dur="3.7s" begin="1s" repeatCount="indefinite"/>
+      </path>
     </g>
 
     <!-- bubbles -->
