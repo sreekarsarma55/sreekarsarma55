@@ -106,7 +106,7 @@ I'll smile and say, It was worth the wait.
     <td align="center" width="25%">🛡️<br/><b>supply-chain security</b><br/><sub>SBOMs, scanners, policy gates</sub></td>
     <td align="center" width="25%">🤖<br/><b>machine learning</b><br/><sub>models, maths, many notebooks</sub></td>
     <td align="center" width="25%">🎧<br/><b>audio ML</b><br/><sub>teaching a model to hear birds</sub></td>
-    <td align="center" width="25%">🌐<br/><b>web apps</b><br/><sub>Vue in front, Flask behind</sub></td>
+    <td align="center" width="25%">🌐<br/><b>web apps</b><br/><sub>Vue in front, Flask / Django behind</sub></td>
   </tr>
   <tr>
     <td align="center">⚡<br/><b>APIs</b><br/><sub>FastAPI, served on Vercel</sub></td>
