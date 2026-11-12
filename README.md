@@ -19,7 +19,7 @@
 
 - studying **CSE** (B.Tech, Mohan Babu University) and **Data Science** (BS, IIT Madras), at the same time
 - deep in the trench with **ChainGuard**, my capstone. it fuses several SBOM generators and vulnerability scanners into one CI/CD security gate
-- i build the behind-the-scenes stuff for **Sahityika**, the literary society of the IIT Madras BS programme: email templates, a reading-session archive and other tidy things
+- - i also build the behind-the-scenes stuff for **[Sahityika](https://sahityika.iitmbs.org)**, the literary society of the IIT Madras BS programme: email templates, a reading-session archive, [website](https://sahityika.iitmbs.org) and other tidy things
 - i also write poems and stories as **Random Dreamer**, and one of them grew into a whole [book](#ink-sac)
 - happy to talk about anything, from black holes and parallel universes to java, python and machine learning, a good book, or the weirdest fact you learned this week. the stranger the better 🛸
 
