@@ -38,13 +38,12 @@
   </tr>
   <tr>
     <td align="center" width="25%"><img src="assets/hobbies/swimming.svg" width="88" alt="swimming octopus"/><br/><b>swimming</b><br/><sub>the closest i get to being octy</sub></td>
-    <td align="center" width="25%"><img src="assets/hobbies/swimming.svg" width="88" alt="swimming octopus"/><br/><b>swimming</b><br/><sub>the closest i get to being octy</sub></td>
     <td align="center" width="25%">
       <img src="assets/hobbies/photography.svg" width="88" alt="octopus with a camera"/><br/>
       <b>photography</b><br/>
       <sub>
         eight arms, one steady shot<br/>
-        <a href="https://www.instagram.com/sreekarsarma55/" target="_blank">check out my shots on Instagram</a><br/>
+        <a href="https://www.instagram.com/sreekarsarma55/" target="_blank">check out my clicks on Instagram</a><br/>
         website showcase coming soon
       </sub>
     </td>
