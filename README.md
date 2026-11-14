@@ -38,7 +38,16 @@
   </tr>
   <tr>
     <td align="center" width="25%"><img src="assets/hobbies/swimming.svg" width="88" alt="swimming octopus"/><br/><b>swimming</b><br/><sub>the closest i get to being octy</sub></td>
-    <td align="center" width="25%"><img src="assets/hobbies/photography.svg" width="88" alt="octopus with a camera"/><br/><b>photography</b><br/><sub>eight arms, one steady shot</sub></td>
+    <td align="center" width="25%"><img src="assets/hobbies/swimming.svg" width="88" alt="swimming octopus"/><br/><b>swimming</b><br/><sub>the closest i get to being octy</sub></td>
+    <td align="center" width="25%">
+      <img src="assets/hobbies/photography.svg" width="88" alt="octopus with a camera"/><br/>
+      <b>photography</b><br/>
+      <sub>
+        eight arms, one steady shot<br/>
+        <a href="https://www.instagram.com/sreekarsarma55/" target="_blank">check out my shots on Instagram</a><br/>
+        website showcase coming soon
+      </sub>
+    </td>
     <td align="center" width="25%"><img src="assets/hobbies/cooking.svg" width="88" alt="octopus chef stirring a pot"/><br/><b>cooking</b><br/><sub>stirring several pots at once</sub></td>
     <td align="center" width="25%"><img src="assets/hobbies/nature.svg" width="88" alt="octopus holding a flower"/><br/><b>nature</b><br/><sub>happiest somewhere green, or blue</sub></td>
   </tr>
